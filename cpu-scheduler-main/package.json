@@ -1,0 +1,33 @@
+{
+  "name": "my-pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Bhavishya Gautam",
+  "license": "ISC",
+  "description": "CPU scheduler",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavishya-Gautam/cpu-scheduler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bhavishya-Gautam/cpu-scheduler/issues"
+  },
+  "homepage": "https://github.com/Bhavishya-Gautam/cpu-scheduler#readme"
+}
